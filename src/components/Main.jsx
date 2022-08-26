@@ -4,7 +4,7 @@ import FilteredCountries from "./FilteredCountries";
 
 function Main() {
   const [countries, setCountries] = useState([]);
-  const [error, setError] = useState("");
+  const [error] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
