@@ -4,7 +4,7 @@ import FilteredCountries from "./FilteredCountries";
 
 function Main() {
   const [countries, setCountries] = useState([]);
-  const [error] = useState("");
+  const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
@@ -18,7 +18,7 @@ function Main() {
           setCountries([]);
         }
       } catch (error) {
-        // setError("Failed to fetch countries");
+        setError("Failed to fetch countries");
       } finally {
         setIsLoading(false);
       }
