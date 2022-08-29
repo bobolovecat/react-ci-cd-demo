@@ -41,7 +41,7 @@ function Main() {
       <div className="svg">
         <svg width="100%" height="100vh">
           <text x="5%" y="55%">
-            球球的前端奶茶屋
+            这是预览版本
           </text>
         </svg>
       </div>
