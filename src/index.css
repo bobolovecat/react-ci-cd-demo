@@ -6,6 +6,23 @@ body {
   font-family: "Nunito Sans", Helvetica, sans-serif;
 }
 
+.svg text {
+  font-size: 10vw;
+  font-weight: 900;
+  stroke-width: 2px;
+  fill: transparent;
+  stroke: #ffc8dd;
+  letter-spacing: 4px;
+  stroke-dasharray: 100%!important;
+  stroke-dashoffset: 100%;
+  animation: line-anm 6s infinite;
+}
+@keyframes line-anm {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
