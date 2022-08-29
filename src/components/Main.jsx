@@ -40,7 +40,9 @@ function Main() {
     <div className="mx-5 pt-[100px]">
       <div className="svg">
         <svg width="100%" height="100vh">
-          <text x="5%" y="55%">球球的前端奶茶屋</text>
+          <text x="5%" y="55%">
+            球球的前端奶茶屋
+          </text>
         </svg>
       </div>
       <FilteredCountries countries={countries} />
