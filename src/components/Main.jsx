@@ -41,7 +41,7 @@ function Main() {
       <div className="svg">
         <svg width="100%" height="100vh">
           <text x="5%" y="55%">
-            这是预览版本
+            预发布环境的版本
           </text>
         </svg>
       </div>
