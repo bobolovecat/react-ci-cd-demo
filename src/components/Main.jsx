@@ -40,8 +40,8 @@ function Main() {
     <div className="mx-5 pt-[100px]">
       <div className="svg">
         <svg width="100%" height="100vh">
-          <text x="5%" y="55%">
-            球球的前端奶茶屋
+          <text x="20%" y="55%">
+            线上的环境
           </text>
         </svg>
       </div>
