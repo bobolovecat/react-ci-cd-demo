@@ -16,8 +16,6 @@ jobs:
           node-version: "16"
       - name: Install dependencies
         run: yarn install
-      - name: Run linting checks
-        run: yarn lint
       - name: Build application
         run: yarn build
       - name: Deploy to Netlify
